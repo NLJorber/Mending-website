@@ -2,15 +2,21 @@ body {
 
     margin: 0;
     font-family: system-ui;
-
     background-color: #A8B380;    
 }
 
 .flex-container {
-    display: flex;
-   justify-content: flex-end;
-   background-color: yellowgreen;
-   
+  display: flex;
+  flex-wrap: wrap; /* This allows children to wrap */
+  gap: 1rem; /* optional, adds space between boxes */
+  
+}
+
+.flex-container > div {
+  flex: 1 1 300px; /* lets boxes resize and wrap */
+  padding: 10px;
+}
+    
 }
 .blue {
     background-color: blue;
@@ -18,7 +24,7 @@ body {
 }
 .pink {
     background-color: pink;
-    color: white:
+    color: white;
 }
 .purple {
     background-color: purple;

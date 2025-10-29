@@ -1,0 +1,26 @@
+body {
+
+    margin: 0;
+    font-family: system-ui;
+
+    background-color: #A8B380;    
+}
+
+.flex-container {
+    display: flex;
+   justify-content: flex-end;
+   background-color: yellowgreen;
+   
+}
+.blue {
+    background-color: blue;
+    color: white;
+}
+.pink {
+    background-color: pink;
+    color: white:
+}
+.purple {
+    background-color: purple;
+    color: white;
+}

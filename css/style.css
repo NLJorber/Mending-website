@@ -1,32 +1,72 @@
 body {
 
-    margin: 0;
+    margin: 1rem;
     font-family: system-ui;
     background-color: #A8B380;    
 }
 
 .flex-container {
+
   display: flex;
   flex-wrap: wrap; /* This allows children to wrap */
-  gap: 1rem; /* optional, adds space between boxes */
-  
+  gap: 1.5rem; /* optional, adds space between boxes */
+  justify-content: center;
+  align-items: flex-start; /* aligned at top */
 }
 
 .flex-container > div {
-  flex: 1 1 300px; /* lets boxes resize and wrap */
+  flex: 1 1 300px;
   padding: 10px;
+  border: 2px solid #100c08;
+  border-radius: 5px;
+  box-sizing: border-box; /* helps keep padding inside size */
+  text-align: center; /* optional: centers the image */
+  
 }
-    
+
+
+
+
+/* make these shrink to content */
+.why,
+.downsides,
+.solutions {
+  flex: 0 0 auto;
+  width: fit-content;
+  max-width: none;
+  margin: 0 auto;
+  display: inline-block;
 }
-.blue {
-    background-color: blue;
+
+/* Make images responsive */
+.flex-container img {
+  max-width: 100%; /* never exceed container width */
+  height: auto; /* keep aspect ratio */
+  display: block; /* removes bottom gap */
+  margin: 0 auto; /* center image */
+}
+  
+.tenor-gif-embed {
+  max-width: 400px;  /* set a maximum width */
+  margin: 1rem auto; /* center it horizontally */
+}
+
+
+/* --- colours --- */
+.why {
+    background-color: #3d315B;
     color: white;
 }
-.pink {
-    background-color: pink;
+
+.downsides {
+    background-color: #3d315B;
     color: white;
 }
-.purple {
-    background-color: purple;
+.decluttering {
+    background-color: #100c08;
+    color: white;
+}
+.solutions {
+    background-color: #444b6e;
     color: white;
 }

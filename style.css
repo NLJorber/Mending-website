@@ -6,6 +6,13 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #A8B380;    
 }
+
+
+a:link {
+  color: #A8B380;
+  background-color: transparent;
+  text-decoration: none;
+}
 main {
   flex-grow: 1;
 }
@@ -38,13 +45,18 @@ nav a:hover {
 
 /* make these shrink to content */
 .why,
+.notjustoldstuff,
+.mendingbegood,
 .downsides,
-.solutions {
+.solutions,
+.textilewaste {
   flex: 0 0 auto;
   width: fit-content;
   max-width: none;
   margin: 0 auto;
   display: inline-block;
+
+
 }
 /* Make images responsive */
 .flex-container img {
@@ -68,16 +80,33 @@ figcaption a {
     color: white;
 }
 
+.textilewaste {
+    background-color: #673147;
+    color: white;
+}
+
+.decluttering {
+    background-color: #100C08;
+    color: white;
+}
+
+.notjustoldstuff {
+    background-color: #3d315B;
+    color: white;
+}
+
 .downsides {
     background-color: #3d315B;
     color: white;
 }
-.decluttering {
-    background-color: #100c08;
+
+.mendingbegood {
+    background-color: #3d315B;
     color: white;
 }
+
 .solutions {
-    background-color: #444b6e;
+    background-color: #673147;
     color: white;
 }
 

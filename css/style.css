@@ -24,9 +24,6 @@ body {
   
 }
 
-
-
-
 /* make these shrink to content */
 .why,
 .downsides,
@@ -45,12 +42,16 @@ body {
   display: block; /* removes bottom gap */
   margin: 0 auto; /* center image */
 }
-  
+
 .tenor-gif-embed {
   max-width: 400px;  /* set a maximum width */
   margin: 1rem auto; /* center it horizontally */
 }
 
+figcaption a {
+    color: #A8B380; 
+    text-decoration: underline;
+}
 
 /* --- colours --- */
 .why {

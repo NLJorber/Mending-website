@@ -45,13 +45,18 @@ nav a:hover {
 
 /* make these shrink to content */
 .why,
+.notjustoldstuff,
+.mendingbegood,
 .downsides,
-.solutions {
+.solutions,
+.textilewaste {
   flex: 0 0 auto;
   width: fit-content;
   max-width: none;
   margin: 0 auto;
   display: inline-block;
+
+
 }
 /* Make images responsive */
 .flex-container img {
@@ -75,8 +80,18 @@ figcaption a {
     color: white;
 }
 
+.textilewaste {
+    background-color: #673147;
+    color: white;
+}
+
 .decluttering {
     background-color: #100C08;
+    color: white;
+}
+
+.notjustoldstuff {
+    background-color: #3d315B;
     color: white;
 }
 
@@ -84,6 +99,12 @@ figcaption a {
     background-color: #3d315B;
     color: white;
 }
+
+.mendingbegood {
+    background-color: #3d315B;
+    color: white;
+}
+
 .solutions {
     background-color: #673147;
     color: white;

@@ -83,8 +83,7 @@ figcaption a {
 
 a[href^="mailto:"] {
   color: white;             
-  text-decoration: none;   
-     
+  text-decoration: none;      
 }
 
 a[href^="mailto:"]:hover {

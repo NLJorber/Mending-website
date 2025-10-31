@@ -85,8 +85,13 @@ figcaption a {
     color: white;
 }
 
+.visorinvis {
+    background-color: #673147;
+    color: white;
+}
+
 .decluttering {
-    background-color: #100C08;
+    background-color: #444b6e;
     color: white;
 }
 
@@ -95,8 +100,28 @@ figcaption a {
     color: white;
 }
 
+.darning {
+    background-color: #3d315B;
+    color: white;
+}
+
+.darninglayers {
+    background-color: #673147;
+    color: white;
+}
+
 .downsides {
     background-color: #3d315B;
+    color: white;
+}
+
+.scotch {
+    background-color: #3d315B;
+    color: white;
+}
+
+.patching {
+    background-color: #673147;
     color: white;
 }
 
@@ -107,6 +132,11 @@ figcaption a {
 
 .solutions {
     background-color: #673147;
+    color: white;
+}
+
+.easy {
+    background-color: #444B6E;
     color: white;
 }
 
